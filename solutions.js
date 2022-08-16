@@ -24,12 +24,8 @@ function isTrue(input) {
     return input === true;
 }
 
-function isFalse(value){
-    if (value === false){
-        return true;
-    } else {
-        return false;
-    }
+function isFalse(value) {
+    return value === false;
 }
 
     function not(any) {
@@ -45,5 +41,21 @@ function isFalse(value){
     }
 
     function isIdentical(inputOne, inputTwo){
-        return inputOne === inputTwo
+        return inputOne === inputTwo;
+    }
+
+    function isEqual(input1, input2){
+        return input1 == input2;
+    }
+
+    function or(argument1, argument2){
+        return argument1 || argument2;
+    }
+
+    function and(argumentOne,argumentTwo){
+        return argumentOne && argumentTwo;
+    }
+
+    function concat(string1, string2){
+    return "" + string1 + string2;
     }
