@@ -40,3 +40,10 @@ function isFalse(value){
         return parseFloat(singleInput)+ 1;
     }
 
+    function isEven(evenNumber){
+        return parseFloat(evenNumber) % 2 === 0;
+    }
+
+    function isIdentical(inputOne, inputTwo){
+        return inputOne === inputTwo
+    }
