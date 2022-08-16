@@ -37,5 +37,6 @@ function isFalse(value){
     }
 
     function addOne(singleInput){
-        return singleInput + 1
+        return parseFloat(singleInput)+ 1;
     }
+
