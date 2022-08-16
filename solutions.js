@@ -35,3 +35,7 @@ function isFalse(value){
     function not(any) {
         return !any
     }
+
+    function addOne(singleInput){
+        return singleInput + 1
+    }
